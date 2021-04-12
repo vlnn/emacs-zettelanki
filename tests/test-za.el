@@ -18,6 +18,7 @@
 ;;; Code:
 
 (require 'buttercup)
+(require 'ez)
 
 (describe "Function: `sum'"
   (it "should work :)"
