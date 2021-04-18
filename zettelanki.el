@@ -17,6 +17,9 @@
 ;;; Code:
 
 (defun sum (x y)
+  "Function just to test the system. To be deleted.
+X is a number,
+Y is a number."
   (+ x y))
 
 (provide 'zettelanki)
