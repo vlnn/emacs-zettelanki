@@ -1,4 +1,4 @@
-;;; ez.el --- Description -*- lexical-binding: t; -*-
+;;; zettelanki.el --- Description -*- lexical-binding: t; -*-
 ;;
 ;; Copyright (C) 2021 vlnn
 ;;
@@ -19,5 +19,5 @@
 (defun sum (x y)
   (+ x y))
 
-(provide 'ez)
-;;; ez.el ends here
+(provide 'zettelanki)
+;;; zettelanki.el ends here
