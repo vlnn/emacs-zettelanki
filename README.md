@@ -1,5 +1,8 @@
 # emacs-zettelanki
 
+![tests](https://github.com/vlnn/emacs-zettelanki/actions/workflows/test.yml/badge.svg)
+
+
 To include anki and zettel into my flow needs an integration between information stored as zettels and the brain of the user. 
 
 ## Installation
