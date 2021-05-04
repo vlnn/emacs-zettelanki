@@ -3,10 +3,12 @@
 ;; Copyright (C) 2021 vlnn
 ;;
 ;; Author: va <https://github.com/vlnn>
+;; URL: https://github.com/vlnn/emacs-zettelanki
+
 ;; Created: April 13, 2021
 ;; Modified: April 13, 2021
 ;; Version: 0.0.1
-;; Package-Requires: ((request "0.3.2"))
+;; Package-Requires: ((request "0.3.2") (emacs "24.1"))
 ;;
 ;; This file is not part of GNU Emacs.
 ;;
