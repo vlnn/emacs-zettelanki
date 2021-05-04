@@ -6,7 +6,7 @@
 ;; Created: April 13, 2021
 ;; Modified: April 13, 2021
 ;; Version: 0.0.1
-;; Package-Requires: ((emacs "24.3"))
+;; Package-Requires: ((request "0.3.2"))
 ;;
 ;; This file is not part of GNU Emacs.
 ;;
@@ -16,8 +16,15 @@
 ;;
 ;;; Code:
 
-(defun sum (x y)
-  "Function just to test the system. To be deleted.
+(require 'request)
+
+(defun zettelanki-file-upload (zettel-json)
+  "Upload zettel to ankiweb.
+ZETTEL-JSON is proper json to be consumed by anki"
+  (ignore zettel-json))
+
+(defun zettelanki-sum (x y)
+  "Function just to test the system.  TODO: To be deleted.
 X is a number,
 Y is a number."
   (+ x y))

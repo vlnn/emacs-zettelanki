@@ -19,8 +19,8 @@
 (require 'buttercup)
 (require 'zettelanki)
 
-(describe "Function: `sum'"
+(describe "Function: `zettelanki-sum'"
   (it "should work :)"
-    (expect (sum 3 7) :to-be 10)
-    (expect (sum 3 7) :not :to-be 11)))
+    (expect (zettelanki-sum 3 7) :to-be 10)
+    (expect (zettelanki-sum 3 7) :not :to-be 11)))
 ;;; test-zettelanki.el ends here
