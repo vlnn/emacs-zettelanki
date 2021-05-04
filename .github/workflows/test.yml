@@ -9,7 +9,7 @@ on:
       - '**.md'
 
 jobs:
-  test:
+  pr-check:
     runs-on: ubuntu-latest
     strategy:
       matrix:
